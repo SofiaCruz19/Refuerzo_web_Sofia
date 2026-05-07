@@ -34,4 +34,3 @@ Este repositorio contiene una página estática que aborda prácticas de manteni
 ## Créditos
 
 - Este ejemplo es una plantilla básica para estructurar información sobre mantenimiento y aseguramiento de la operación de sistemas informáticos. Puedes ampliarla según tus necesidades.
-
