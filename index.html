@@ -1,11 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo de index basico</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mantenimiento y aseguramiento de la operación del sistema informático</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    Este es un ejemplo de repositorio
+    <header class="site-header" aria-label="Encabezado principal">
+        <div class="container header-inner">
+        <h1 class="logo">
+        Mantenimiento y Aseguramiento de la Operación del Sistema Informático
+        </h1>
+        <p class="tagline">Prácticas, procesos y herramientas para garantizar la continuidad y seguridad de sistemas informáticos</p>
+
+        <nav aria-label="Navegación principal" class="main-nav">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#practicas">Prácticas</a></li>
+            <li><a href="#monitoreo">Monitoreo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        </nav>
+    </div>
+    </header>
+
+    <main id="inicio" class="container main-content">
+    <section class="hero" aria-label="Sección de bienvenida">
+        <h2>Bienvenido</h2>
+        <p>Este recurso describe prácticas de mantenimiento y aseguramiento para garantizar la operación continua y segura de sistemas informáticos.</p>
+    </section>
+
+    <section id="objetivos" class="content-section" aria-labelledby="objetivos-titulo">
+        <h3 id="objetivos-titulo">Objetivos</h3>
+        <ul>
+        <li>Garantizar disponibilidad, continuidad y confiabilidad de los sistemas.</li>
+        <li>Minimizar riesgos de fallo, incidentes y pérdida de datos.</li>
+        <li>Establecer procesos de mantenimiento, monitoreo y recuperación ante incidentes.</li>
+        </ul>
+    </section>
+
+    <section id="practicas" class="content-section" aria-labelledby="practicas-titulo">
+        <h3 id="practicas-titulo">Prácticas clave</h3>
+        <ul>
+        <li>Mantenimiento preventivo y actualizaciones programadas.</li>
+        <li>Gestión de cambios y control de versiones.</li>
+        <li>Monitoreo proactivo, alertas y respuesta ante incidentes.</li>
+        <li>Gestión de copias de seguridad y procedimientos de recuperación.</li>
+        <li>Seguridad, cumplimiento y gestión de riesgos.</li>
+        </ul>
+    </section>
+
+    <section id="monitoreo" class="content-section" aria-labelledby="monitoreo-titulo">
+        <h3 id="monitoreo-titulo">Monitoreo y aseguramiento</h3>
+        <p>Implementar monitoreo de rendimiento, integridad y seguridad; definir umbrales de alerta y procesos de escalamiento.</p>
+    </section>
+
+    <section id="contacto" class="content-section" aria-labelledby="contacto-titulo">
+        <h3 id="contacto-titulo">Contacto</h3>
+        <p>Para preguntas o aportes, contacta al administrador del repositorio.</p>
+    </section>
+    </main>
+
+    <footer class="site-footer container" aria-label="Pie de página">
+    <p>© 2026 Mantenimiento y Aseguramiento de la Operación del Sistema Informático • Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
+
+style.css
+css
+
+:root {
+  --primary: #1e3a8a;  /* azul oscuro */
+  --secondary: #10b981; /* verde/teal suave */
+    --bg: #f7f9fb;
+    --surface: #ffffff;
+    --text: #0f172a;
+    --muted: #64748b;
+    --card: #ffffff;
+    --radius: 12px;
+}
+
+* { box-sizing: border-box; }
+html { font-size: 16px; }
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.site-header {
+    background: linear-gradient(135deg, #0e3a8a 0%, #1e40af 60%, #0f9d8a 100%);
+    color: #fff;
+    padding: 24px 0;
+}
+
+.header-inner { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+
+.logo {
+    font-size: 1.6rem;
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.tagline { margin: 0; opacity: 0.95; }
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.main-nav a:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.main-content { padding: 28px 0; }
+
+.hero {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: var(--radius);
+    color: #0b1b2b;
+    margin: 20px 0;
+}
+
+.content-section {
+    background: #fff;
+    padding: 18px;
+    border-radius: var(--radius);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin: 16px 0;
+}
+
+.content-section h3 { margin-top: 0; }
+
+.site-footer {
+    text-align: center;
+    padding: 20px 0;
+    color: var(--muted);
+}
+
+@media (max-width: 768px) {
+    .main-nav ul { flex-wrap: wrap; gap: 8px; }
+    .logo { font-size: 1.2rem; }
+    .container { width: 92%; }
+}
