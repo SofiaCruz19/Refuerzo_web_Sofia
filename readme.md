@@ -1,36 +1,32 @@
-# Mantenimiento y Aseguramiento de la Operación del Sistema Informático
+# 💻 Mantenimiento y Aseguramiento de la Operación del Sistema Informático
 
-Este repositorio contiene una página estática que aborda prácticas de mantenimiento y aseguramiento de la operación del sistema informático. Incluye los siguientes archivos:
-- index.html: página principal con secciones de objetivos, prácticas y monitoreo.
-- style.css: estilos para la página.
-- readme.md: descripción e instrucciones del proyecto.
+Proyecto web estático desarrollado en HTML5 y CSS3 orientado a la presentación de prácticas, procesos y herramientas relacionadas con el mantenimiento y aseguramiento de sistemas informáticos.
 
-## Estructura del proyecto
+La página incluye un diseño moderno, responsive e interactivo para mostrar información técnica de forma clara, organizada y profesional.
 
-- index.html: página principal en HTML5.
-- style.css: estilos CSS para el diseño y la disposición.
-- readme.md: esta guía.
+---
 
-## Cómo usar
+# 📌 Descripción
 
-1. Abrir index.html en un navegador para ver la página.
-2. O servir los archivos desde un servidor estático si se prefiere:
-    - Python: python -m http.server 8000
-    - Node.js con http-server: npx http-server
-3. Personalizar:
-    - Modificar el contenido de index.html para adaptar la información a tu entorno.
-    - Cambiar colores y estilos en style.css si se desea un tema diferente.
+Este proyecto aborda temas relacionados con:
 
-## Personalización
+- Disponibilidad y continuidad operativa.
+- Mantenimiento preventivo y correctivo.
+- Monitoreo de sistemas.
+- Seguridad informática.
+- Gestión de respaldos.
+- Recuperación ante incidentes.
+- Gestión de riesgos tecnológicos.
 
-- Cambiar colores: ajusta las variables en :root de style.css.
-- Añadir nuevas secciones: sigue la estructura de las secciones existentes en index.html.
-- Adaptar textos: actualiza los textos de Objetivos, Prácticas, Monitoreo, etc.
+El objetivo principal es garantizar la estabilidad, disponibilidad y seguridad de los sistemas informáticos mediante buenas prácticas de administración y mantenimiento.
 
-## Requisitos
+---
 
-- No se requieren dependencias externas; es HTML/CSS puro.
+# 🧩 Estructura del Proyecto
 
-## Créditos
-
-- Este ejemplo es una plantilla básica para estructurar información sobre mantenimiento y aseguramiento de la operación de sistemas informáticos. Puedes ampliarla según tus necesidades.
+```bash
+📁 proyecto/
+│
+├── 📄 index.html
+├── 🎨 style.css
+└── 📘 README.md
