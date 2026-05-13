@@ -1,70 +1,551 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mantenimiento y aseguramiento de la operación del sistema informático</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-    <header class="site-header" aria-label="Encabezado principal">
-        <div class="container header-inner">
-        <h1 class="logo">
-        Mantenimiento y Aseguramiento de la Operación del Sistema Informático
-        </h1>
-        <p class="tagline">Prácticas, procesos y herramientas para garantizar la continuidad y seguridad de sistemas informáticos</p>
 
-        <nav aria-label="Navegación principal" class="main-nav">
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#objetivos">Objetivos</a></li>
-            <li><a href="#practicas">Prácticas</a></li>
-            <li><a href="#monitoreo">Monitoreo</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-        </nav>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mantenimiento y Aseguramiento</title>
+
+    <!-- ICONOS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+
+        <div class="container navbar">
+
+            <h1 class="logo">
+                <i class="fa-solid fa-server"></i>
+                Sistema Informático
+            </h1>
+
+            <!-- MENU -->
+            <nav class="main-nav">
+
+                <ul>
+
+                    <li><a href="#inicio">Inicio</a></li>
+
+                    <li><a href="#objetivos">Objetivos</a></li>
+
+                    <li><a href="#practicas">Prácticas</a></li>
+
+                    <li><a href="#mantenimiento">Mantenimiento</a></li>
+
+                    <li><a href="#seguridad">Seguridad</a></li>
+
+                    <li><a href="#respaldos">Respaldos</a></li>
+
+                    <li><a href="#beneficios">Beneficios</a></li>
+
+                    <li><a href="#herramientas">Herramientas</a></li>
+
+                    <li><a href="#monitoreo">Monitoreo</a></li>
+
+                    <li><a href="#contacto">Contacto</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
     </header>
 
-    <main id="inicio" class="container main-content">
-    <section class="hero" aria-label="Sección de bienvenida">
-        <h2>Bienvenido</h2>
-        <p>Este recurso describe prácticas de mantenimiento y aseguramiento para garantizar la operación continua y segura de sistemas informáticos.</p>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+
+        <div class="hero-content container">
+
+            <div class="hero-text">
+
+                <h2>
+                    Mantenimiento y Aseguramiento
+                    de la Operación del Sistema Informático
+                </h2>
+
+                <p>
+                    Prácticas, procesos y herramientas para garantizar
+                    la continuidad, disponibilidad y seguridad
+                    de sistemas informáticos.
+                </p>
+
+                <a href="#objetivos" class="btn">
+                    Explorar contenido
+                </a>
+
+            </div>
+
+            <div class="hero-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+
+        </div>
+
     </section>
 
-    <section id="objetivos" class="content-section" aria-labelledby="objetivos-titulo">
-        <h3 id="objetivos-titulo">Objetivos</h3>
-        <ul>
-        <li>Garantizar disponibilidad, continuidad y confiabilidad de los sistemas.</li>
-        <li>Minimizar riesgos de fallo, incidentes y pérdida de datos.</li>
-        <li>Establecer procesos de mantenimiento, monitoreo y recuperación ante incidentes.</li>
-        </ul>
-    </section>
+    <!-- CONTENIDO -->
+    <main class="container">
 
-    <section id="practicas" class="content-section" aria-labelledby="practicas-titulo">
-        <h3 id="practicas-titulo">Prácticas clave</h3>
-        <ul>
-        <li>Mantenimiento preventivo y actualizaciones programadas.</li>
-        <li>Gestión de cambios y control de versiones.</li>
-        <li>Monitoreo proactivo, alertas y respuesta ante incidentes.</li>
-        <li>Gestión de copias de seguridad y procedimientos de recuperación.</li>
-        <li>Seguridad, cumplimiento y gestión de riesgos.</li>
-        </ul>
-    </section>
+        <!-- OBJETIVOS -->
+        <section id="objetivos" class="card">
 
-    <section id="monitoreo" class="content-section" aria-labelledby="monitoreo-titulo">
-        <h3 id="monitoreo-titulo">Monitoreo y aseguramiento</h3>
-        <p>Implementar monitoreo de rendimiento, integridad y seguridad; definir umbrales de alerta y procesos de escalamiento.</p>
-    </section>
+            <div class="section-title">
 
-    <section id="contacto" class="content-section" aria-labelledby="contacto-titulo">
-        <h3 id="contacto-titulo">Contacto</h3>
-        <p>Para preguntas o aportes, contacta al administrador del repositorio.</p>
-    </section>
-    </main>
+                <i class="fa-solid fa-bullseye"></i>
 
-    <footer class="site-footer container" aria-label="Pie de página">
-    <p>© 2026 Mantenimiento y Aseguramiento de la Operación del Sistema Informático • Todos los derechos reservados</p>
+                <h3>Objetivos</h3>
+
+            </div>
+
+            <ul>
+
+                <li>
+                    Garantizar disponibilidad, continuidad
+                    y confiabilidad de los sistemas.
+                </li>
+
+                <li>
+                    Minimizar riesgos de fallo,
+                    incidentes y pérdida de datos.
+                </li>
+
+                <li>
+                    Establecer procesos de mantenimiento,
+                    monitoreo y recuperación ante incidentes.
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!-- PRACTICAS -->
+        <section id="practicas" class="card">
+
+            <div class="section-title">
+
+                <i class="fa-solid fa-gears"></i>
+
+                <h3>Prácticas clave</h3>
+
+            </div>
+
+            <div class="grid">
+
+                <div class="mini-card">
+
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+
+                    <p>
+                        Mantenimiento preventivo y actualizaciones programadas.
+                    </p>
+
+                </div>
+
+                <div class="mini-card">
+
+                    <i class="fa-solid fa-code-branch"></i>
+
+                    <p>
+                        Gestión de cambios y control de versiones.
+                    </p>
+
+                </div>
+
+                <div class="mini-card">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <p>
+                        Monitoreo proactivo, alertas y respuesta ante incidentes.
+                    </p>
+
+                </div>
+
+                <div class="mini-card">
+
+                    <i class="fa-solid fa-database"></i>
+
+                    <p>
+                        Gestión de copias de seguridad y recuperación.
+                    </p>
+
+                </div>
+
+                <div class="mini-card">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    <p>
+                        Seguridad, cumplimiento y gestión de riesgos.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- TIPOS DE MANTENIMIENTO -->
+        <section id="mantenimiento" class="card">
+
+            <div class="section-title">
+
+                <i class="fa-solid fa-toolbox"></i>
+
+                <h3>Tipos de mantenimiento</h3>
+
+            </div>
+
+            <div class="grid">
+
+                <div class="mini-card">
+
+                    <i class="fa-solid fa-screwdriver"></i>
+
+                    <h4>Preventivo</h4>
+
+                    <p>
+                        Se realiza periódicamente para evitar fallos
+                        y mantener el rendimiento óptimo del sistema.
+                    </p>
+
+                </div>
+
+                <div class="mini-card">
+
+                    <i class="fa-solid fa-wrench"></i>
+
+                    <h4>Correctivo</h4>
+
+                    <p>
+                        Permite solucionar errores o fallos detectados
+                        durante la operación del sistema.
+                    </p>
+
+                </div>
+
+                <div class="mini-card">
+
+                    <i class="fa-solid fa-rotate"></i>
+
+                    <h4>Predictivo</h4>
+
+                    <p>
+                        Utiliza monitoreo y análisis para anticipar
+                        posibles problemas antes de que ocurran.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SEGURIDAD -->
+        <section id="seguridad" class="card">
+
+            <div class="section-title">
+
+                <i class="fa-solid fa-shield-virus"></i>
+
+                <h3>Seguridad informática</h3>
+
+            </div>
+
+            <p>
+                La seguridad informática es fundamental para proteger
+                la integridad, disponibilidad y confidencialidad
+                de la información almacenada en los sistemas.
+            </p>
+
+            <ul>
+
+                <li>Implementación de antivirus y firewalls.</li>
+
+                <li>Control de accesos y autenticación segura.</li>
+
+                <li>Actualización constante de software.</li>
+
+                <li>Protección contra malware y ataques externos.</li>
+
+                <li>Políticas de seguridad y respaldo de datos.</li>
+
+            </ul>
+
+        </section>
+
+        <!-- RESPALDOS -->
+        <section id="respaldos" class="card">
+
+            <div class="section-title">
+
+                <i class="fa-solid fa-hard-drive"></i>
+
+                <h3>Copias de seguridad</h3>
+
+            </div>
+
+            <p>
+                Las copias de seguridad permiten recuperar información
+                en caso de pérdida de datos, fallos técnicos o ataques.
+            </p>
+
+            <div class="grid">
+
+                <div class="mini-card">
+
+                    <i class="fa-solid fa-copy"></i>
+
+                    <h4>Respaldo completo</h4>
+
+                    <p>
+                        Copia total de todos los archivos y configuraciones.
+                    </p>
+
+                </div>
+
+                <div class="mini-card">
+
+                    <i class="fa-solid fa-clock"></i>
+
+                    <h4>Respaldo incremental</h4>
+
+                    <p>
+                        Guarda únicamente los cambios realizados
+                        desde la última copia.
+                    </p>
+
+                </div>
+
+                <div class="mini-card">
+
+                    <i class="fa-solid fa-cloud"></i>
+
+                    <h4>Respaldo en la nube</h4>
+
+                    <p>
+                        Permite almacenar información
+                        de forma remota y segura.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- BENEFICIOS -->
+        <section id="beneficios" class="card">
+
+            <div class="section-title">
+
+                <i class="fa-solid fa-chart-column"></i>
+
+                <h3>Beneficios del aseguramiento operativo</h3>
+
+            </div>
+
+            <div class="grid">
+
+                <div class="mini-card">
+                    <i class="fa-solid fa-bolt"></i>
+                    <p>Mayor disponibilidad de los sistemas.</p>
+                </div>
+
+                <div class="mini-card">
+                    <i class="fa-solid fa-user-shield"></i>
+                    <p>Reducción de riesgos de seguridad.</p>
+                </div>
+
+                <div class="mini-card">
+                    <i class="fa-solid fa-database"></i>
+                    <p>Protección y recuperación de datos.</p>
+                </div>
+
+                <div class="mini-card">
+                    <i class="fa-solid fa-server"></i>
+                    <p>Mejor rendimiento y estabilidad.</p>
+                </div>
+
+                <div class="mini-card">
+                    <i class="fa-solid fa-business-time"></i>
+                    <p>Continuidad de las operaciones.</p>
+                </div>
+
+                <div class="mini-card">
+                    <i class="fa-solid fa-gear"></i>
+                    <p>Optimización de recursos tecnológicos.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- HERRAMIENTAS -->
+        <section id="herramientas" class="card">
+
+            <div class="section-title">
+
+                <i class="fa-solid fa-laptop-code"></i>
+
+                <h3>Herramientas utilizadas</h3>
+
+            </div>
+
+            <p>
+                Existen diversas herramientas que facilitan el monitoreo,
+                mantenimiento y aseguramiento de sistemas informáticos.
+            </p>
+
+            <ul>
+
+                <li>Software de monitoreo de red y servidores.</li>
+
+                <li>Herramientas de respaldo automático.</li>
+
+                <li>Sistemas de detección de intrusos.</li>
+
+                <li>Plataformas de gestión de incidencias.</li>
+
+                <li>Herramientas de análisis de rendimiento.</li>
+
+            </ul>
+
+        </section>
+
+        <!-- MONITOREO -->
+        <section id="monitoreo" class="card">
+
+            <div class="section-title">
+
+                <i class="fa-solid fa-desktop"></i>
+
+                <h3>Monitoreo y aseguramiento</h3>
+
+            </div>
+
+            <p>
+                Implementar monitoreo de rendimiento,
+                integridad y seguridad;
+                definir umbrales de alerta
+                y procesos de escalamiento.
+            </p>
+
+        </section>
+
+        <!-- CONTACTO -->
+<section id="contacto" class="card">
+
+    <div class="section-title">
+
+        <i class="fa-solid fa-envelope"></i>
+
+        <h3>Contacto</h3>
+
+    </div>
+
+    <p>
+        Para preguntas, sugerencias o aportes,
+        completa el siguiente formulario.
+    </p>
+
+    <form class="contact-form">
+
+        <div class="form-group">
+
+            <label for="nombre">
+                Nombre completo
+            </label>
+
+            <input
+                type="text"
+                id="nombre"
+                placeholder="Ingresa tu nombre"
+                required
+            >
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="correo">
+                Correo electrónico
+            </label>
+
+            <input
+                type="email"
+                id="correo"
+                placeholder="ejemplo@gmail.com"
+                required
+            >
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="telefono">
+                Número telefónico
+            </label>
+
+            <input
+                type="tel"
+                id="telefono"
+                placeholder="0000-0000"
+            >
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="mensaje">
+                Mensaje
+            </label>
+
+            <textarea
+                id="mensaje"
+                rows="5"
+                placeholder="Escribe tu mensaje..."
+            ></textarea>
+
+        </div>
+
+        <button type="submit" class="btn">
+
+            <i class="fa-solid fa-paper-plane"></i>
+            Enviar
+
+        </button>
+
+    </form>
+
+</section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 Mantenimiento y Aseguramiento
+                de la Operación del Sistema Informático
+            </p>
+
+            <p class="autor">
+                Desarrollado por @sofiacrz19
+            </p>
+
+        </div>
+
     </footer>
+
 </body>
+
 </html>
